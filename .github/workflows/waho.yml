@@ -13,8 +13,8 @@ jobs:
       - uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name:  accipiter7/tdwaho
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
           dockerfile: Dockerfile
           buildoptions: --force-rm --compress --no-cache --squash
           tags: "latest"
