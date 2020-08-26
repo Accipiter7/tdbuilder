@@ -9,7 +9,7 @@ jobs:
    runs-on: ubuntu-20.04
    steps:
       - uses: actions/checkout@master
-      - run:  bash thine.sh
+      - run:  bash waho.sh
       - uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name:  accipiter7/tdwaho
