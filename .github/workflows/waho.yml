@@ -1,4 +1,4 @@
-name: TdDock
+name: TdBuild
 on:
   push:
     branches: [ master ]
@@ -10,11 +10,3 @@ jobs:
    steps:
       - uses: actions/checkout@master
       - run:  bash waho.sh
-      - uses: elgohr/Publish-Docker-Github-Action@master
-        with:
-          name:  accipiter7/tdwaho
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          dockerfile: Dockerfile
-          buildoptions: --force-rm --compress --no-cache --squash
-          tags: "latest"
