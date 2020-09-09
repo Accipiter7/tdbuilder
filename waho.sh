@@ -1,5 +1,4 @@
 sudo apt-get update
-sudo apt-get upgrade
 DEBIAN_FRONTEND=noninteractive
 sudo apt-get install make git zlib1g-dev libssl-dev gperf php cmake clang-10 libc++-dev libc++abi-dev
 git clone https://github.com/tdlib/td.git
