@@ -13,4 +13,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
          name: tdjson
-         path: /home/runner/work/tdbuilder/tdbuilder/td/build
+         path: /home/runner/work/tdbuilder/tdbuilder/td/build/libtdjson.so.*
