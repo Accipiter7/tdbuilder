@@ -10,3 +10,7 @@ jobs:
    steps:
       - uses: actions/checkout@master
       - run:  bash waho.sh
+      - uses: actions/upload-artifact@master
+        with:
+         name: tdjson
+         path: /root/out
