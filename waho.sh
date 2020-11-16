@@ -1,6 +1,6 @@
 sudo apt-get update
 DEBIAN_FRONTEND=noninteractive
-sudo apt-get install make git zlib1g-dev libssl-dev gperf php cmake clang-10 libc++-dev libc++abi-dev
+sudo apt-get install make git zlib1g-dev libssl-dev gperf php cmake clang-11 libc++-dev libc++abi-dev
 git clone https://github.com/tdlib/td.git
 cd td
 rm -rf build
